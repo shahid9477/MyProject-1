@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header1 {
+  color: rgb(81, 184, 182);
+  margin-bottom: 30px;
+}
+
+.heading-2 {
+  color: rgb(196, 214, 102);
+  font-size: 20px;
+}
+
+.para-1 {
+  color: rgb(209, 212, 220);
+  font-size: 16px;
+  line-height: 30px;
+
+}
+
+.right-Left-main-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+
+.parent-div {
+  width: fit-content;
+  box-shadow: 0px 0px 5px;
+  
+  
+  
+}
+
+.left-section-div {
+  background-color: rgb(43, 179, 177);
+  color: white;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  
+}
+
+.right-section-div {
+  background-color: rgb(74, 190, 189);
+  color: white;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  
+}
+.section1-div{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.rate{
+  font-size: 32px;
+  
+}
+
+.per-month{
+  color: rgb(115, 221, 222);
+}
+
+.monthly-sub{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.Signuu-btn{
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  font-size: 24px;
+  background-color: rgb(191, 223, 50);
+  color: rgb(246, 253, 178);
+  font-weight: bold;
+  border-radius: 6px;
+  border: none;
+}
+
+.whyus{
+  font-size: 18px;
+  font-weight: bold;
+}
+.whyus-detail-class{
+  font-size: 14px;
+  color: rgb(175, 246, 249);
+  line-height: 22px;
+}
+
+@media (max-width:475px){
+  .right-Left-main-div {
+    grid-template-columns: 1fr;
+
+    
+  }
+}
+
